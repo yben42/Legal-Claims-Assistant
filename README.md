@@ -1,12 +1,12 @@
 # Legal Claims Chatbot
 
-## 🇬🇧 AI-Powered UK Personal Injury Claims Assistant
+## AI-Powered UK Personal Injury Claims Assistant
 
 This project is a Next.js web application that provides an AI-powered chatbot to assist users with preliminary assessments of potential personal injury claims in the UK. It's designed to gather initial information, offer a basic evaluation based on UK legal principles, and guide users towards a consultation with a legal professional.
 
 The chatbot leverages the Groq API for fast LLM responses and provides a streaming interface for a smooth user experience.
 
-## ✨ Features
+## Features
 
 *   **Interactive Chat Interface**: Clean and user-friendly chat UI for users to describe their situation.
 *   **AI-Powered Assessment**: Utilizes a Large Language Model (LLM) via Groq to understand user input and provide relevant information.
@@ -17,7 +17,7 @@ The chatbot leverages the Groq API for fast LLM responses and provides a streami
 *   **Fallback Mechanism**: Basic rule-based fallback responses if the LLM API encounters issues.
 *   **Responsive Design**: Built with Tailwind CSS for responsiveness across devices.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 *   **Framework**: [Next.js](https://nextjs.org/) (App Router)
 *   **Language**: [TypeScript](https://www.typescriptlang.org/)
@@ -28,7 +28,7 @@ The chatbot leverages the Groq API for fast LLM responses and provides a streami
     *   Vercel AI SDK (`@ai-sdk/react` for `useChat` hook - though current frontend is custom)
 *   **Deployment**: [Vercel](https://vercel.com/)
 
-## 📂 Project Structure
+## Project Structure
 
 **Key Directory Explanations:**
 
@@ -41,7 +41,7 @@ The chatbot leverages the Groq API for fast LLM responses and provides a streami
 *   **`scripts/`**: Contains scripts for various tasks, like database schema setup.
 
 This structure should give a clear overview of where to find different parts of the application.
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -68,3 +68,5 @@ Create a `.env.local` file in the root of your project and add your Groq API key
 GROQ_API_KEY=your_groq_api_key_here
 ```
 *Note: The API route `app/api/chat/route.ts` currently has the Groq API key hardcoded. For production, it's crucial to use the environment variable `process.env.GROQ_API_KEY` as intended*
+
+© 2024 Benjamin Yiu. This project is shared for educational and portfolio purposes.
